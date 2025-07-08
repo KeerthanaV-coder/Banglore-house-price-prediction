@@ -3,7 +3,7 @@ import joblib
 import json
 import numpy as np
 
-# Load model and columns
+# Load model and columns ss
 model = joblib.load("bangalore_house_price_model.pkl")
 
 with open("columns.json", "r") as f:
